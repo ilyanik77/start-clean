@@ -26,6 +26,10 @@ ul {
 	list-style: none;
 }
 
+button {
+
+}
+
 .container {
 	max-width: 1180px;
 	padding: 0 10px;
@@ -68,6 +72,59 @@ ul {
 	height: 20px;
 }
 
+.main {
+   background-color: #fff8f3; 
+   overflow-x: clip;
+}
+
+.top {
+    padding-top: 40px;
+    padding-bottom: 150px;
+
+}
+
+.top__inner {
+    position: relative;
+}
+
+.top__content {
+    width: 370px;
+    padding: 150px 0 250px;
+}
+
+.top__title {
+    font-size: 30px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.top__text {
+    margin-top: 15px;
+    margin-bottom: 48px;
+}
+
+.top__buy{
+    border: none;
+    border-radius: 0;
+    padding: 18px 54px;
+    background: #FFBD59;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.top__img {
+    position: absolute;
+    top: 0;
+    left: 240px;
+}
+
+
+
+
+
+
+
+
 .footer {
 	padding-top: 40px;
 	padding-bottom: 25px;
@@ -94,12 +151,39 @@ ul {
 	gap: 15px;
 }
 
+
+
+
+
+
+
+
+
 @media (max-width: 1000px) {
 	.container {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+
+    .top__content {
+        width: 333px;
+        padding: 95px 0 70px;
+    }
+
+    .top__img {
+        left: 300px;
+    }
+
+    .top__img-l {
+        width: 655px;
+    }
 }
+
+
+
+
+
+
 
 @media (max-width: 950px) {
 	.footer__inner {
@@ -116,6 +200,12 @@ ul {
 	}
 }
 
+
+
+
+
+
+
 @media (max-width: 768px) {
 	body {
 		font-size: 10px;
@@ -130,7 +220,32 @@ ul {
 		height: 14px;
 		background-size: cover;
 	}
+
+    .top__content {
+        width: 230px;
+    }
+
+    .top__title {
+        font-size: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .top__text {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .top__img {
+        left: 180px;
+    }
 }
+
+
+
+
+
+
 
 @media (max-width: 640px) {
 	.container {
@@ -167,6 +282,14 @@ ul {
 	}
 }
 
+
+
+
+
+
+
+
+
 @media (max-width: 500px) {
     .footer {
         padding: 50px 0;
@@ -184,5 +307,68 @@ ul {
 
     .footer__menu-list {
         flex-direction: column;
+    }
+
+    .top {
+        padding: 30px 0 50px;
+    }
+
+    .top__content{
+        width: 180px;
+
+    }
+
+    .top__title {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .top__text {
+        font-size: 8px;
+        margin-bottom: 15px;
+    }
+
+    .top__buy {
+        font-size: 10px;
+        padding: 14px 41px;
+    }
+
+    .top__img {
+        width: 309px;
+        left: 167px;
+
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 360px) {
+    .top__content{
+        width: 203px;
+        padding: 20px 0 0;
+    }
+
+    .top__img {
+        left: auto;
+        right: 0;
+    }
+    
+    .top__img-l {
+        width: 185px;
+
+    }
+
+    .top__title {
+        font-size: 18px;
+    }
+
+    .top__text {
+        width: 198px;
+        font-size: 10px;
+        margin-right: 12px;
     }
 }
