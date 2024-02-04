@@ -27,7 +27,6 @@ const swiperTwo = new Swiper('.sertificates__slider', {
 		el: '.swiper-pagination',
 	},
 
-<<<<<<< HEAD
 })
 
 const accordeon = document.querySelector('.accordeon');
