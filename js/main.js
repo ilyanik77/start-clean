@@ -27,6 +27,7 @@ const swiperTwo = new Swiper('.sertificates__slider', {
 		el: '.swiper-pagination',
 	},
 
+<<<<<<< HEAD
 })
 
 const accordeon = document.querySelector('.accordeon');
@@ -37,8 +38,9 @@ accordeonTitles.forEach((el, index) => {
 		const currentText = el.parentElement.querySelector('.accordeon__text')
 
 		currentText.classList.toggle('active');
-    
-        //console.log(currentText);    
+        
 
 	})
+
+
 })

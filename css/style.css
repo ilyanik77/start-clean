@@ -373,6 +373,145 @@ ul {
     transform: translate(-50%, -50%);
 
 }
+<<<<<<< HEAD
+=======
+
+.feedback__item-sociallink {
+    margin-bottom: 12px;
+}
+
+.feedback__item-name {
+    font-family: 'Yeseva One', cursive;
+	font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.feedback__item-text {
+    margin-bottom: 15px;
+}
+
+.feedback__item-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+.feedback__item-content {
+    padding-bottom: 70px;
+}
+
+.feedback__slider {
+   width: 760px; 
+   overflow: hidden;
+}
+
+.feedback__content .swiper-pagination {
+    bottom: 50px;
+}
+
+.swiper-pagination-bullet {
+    border-radius: 0;
+    opacity: 1;
+    background-color: #BEA495;
+    width: 53px;
+    height: 4px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #7B6152;
+}
+
+.sertificates__slider {
+    width: 1135px; 
+    overflow: hidden;
+}
+
+.sertificates__content {
+    padding-bottom: 114px;
+}
+
+.sertificates__content .swiper-pagination {
+    bottom: 50px;
+    text-align: left;
+}
+
+.promo {
+    background-image: url("../img/promo-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0;
+}
+
+.promo__inner {
+    display: flex;
+    align-items: center;
+}
+
+.promo__text {
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 56px;
+}
+
+.promo__link {
+    margin-left: 108px;
+    background-color: #FFBD59;
+}
+
+.contacts {
+   padding: 150px 0 50px; 
+}
+
+.contacts__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form {
+    background: #fff;
+    width: 664px;
+    padding: 75px 42px 67px;
+}
+
+.form__title {
+    color: #000;
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.form__input {
+    border: none;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #000;
+    margin-bottom: 15px;
+    padding: 7px 10px;
+}
+
+.form__input::placeholder {
+    color: #B3B3B3;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.form__btn {
+    background-color: #FFBD59;
+    padding: 17px 34px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: 600;
+    color: #272727;
+    margin-top: 36px;
+}
+>>>>>>> f7ca686db945520b48d2a2b685ad5286904c45df
 
 .feedback__item-sociallink {
     margin-bottom: 12px;
@@ -682,6 +821,7 @@ ul {
     .sertificates__slider {
         width: 880px;
     }
+<<<<<<< HEAD
 
     .promo__link {
         min-width: 195px;
@@ -694,6 +834,8 @@ ul {
     .contacts__img {
         width: 335px;
     }
+=======
+>>>>>>> f7ca686db945520b48d2a2b685ad5286904c45df
 }
 
 
@@ -930,6 +1072,7 @@ ul {
 
     .sertificates__slider {
         width: 680px;
+<<<<<<< HEAD
     }
 
     .promo {
@@ -962,6 +1105,8 @@ ul {
 
     .form__btn {
         margin-top: 10px;
+=======
+>>>>>>> f7ca686db945520b48d2a2b685ad5286904c45df
     }
 
 
@@ -1090,6 +1235,7 @@ ul {
 	.about__inner {
 		align-items: flex-end;
 	}
+<<<<<<< HEAD
 
 	.about__content {
 		min-width: 172px;
@@ -1162,6 +1308,62 @@ ul {
 
     .contacts {
         padding-top: 50px;
+=======
+
+	.about__content {
+		min-width: 172px;
+	}
+
+	.about__list {
+		margin-left: 0;
+		margin-bottom: 0;
+		padding-left: 10px;
+		gap: 0 10px;
+		align-items: flex-end;
+	}
+
+	.about__item-text {
+		display: none;
+	}
+
+	.about__item-img--1 {
+		width: 80px;
+	}
+
+	.about__item-img--2 {
+		width: 140px;
+	}
+
+	.about__item-img--3 {
+		width: 80px;
+	}
+
+	.section {
+		padding-bottom: 50px;
+	}
+
+	.section__content-descr {
+        grid-template-columns: auto auto;
+		padding-bottom: 0;
+	}
+
+	.section__descr {
+		margin: 0 auto 30px;
+		width: 300px;
+	}
+
+	.about {
+		margin-bottom: 50px;
+	}
+
+	.steps__list {
+		gap: 25px 40px;
+	}
+
+    .sertificates__content .swiper-pagination {
+        bottom: 50px;
+        text-align: center;
+>>>>>>> f7ca686db945520b48d2a2b685ad5286904c45df
     }
 }
 
@@ -1356,10 +1558,13 @@ ul {
         width: 250px;
         margin: 0 auto 20px;
     }
+<<<<<<< HEAD
 
     .promo__link {
         min-width: 78px;
         margin-left: 50px;
         padding: 11px 14px;
     }
+=======
+>>>>>>> f7ca686db945520b48d2a2b685ad5286904c45df
 }
